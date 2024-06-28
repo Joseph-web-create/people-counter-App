@@ -2,6 +2,12 @@ body {
     font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: bold;
     text-align: center;
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     }
 
     h2 {
@@ -25,6 +31,9 @@ body {
         background: #006400;
     }
 
+    #save-btn:hover{
+        background-color: #419541;
+    }
 
     .button-container{
         display: flex;
